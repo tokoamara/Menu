@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Dengan Tombol Bergaya Game</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #000000; /* Latar belakang hitam */
+            color: #ffffff; /* Warna teks putih */
+        }
+        .container {
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            background: linear-gradient(145deg, #1e90ff, #4682b4);
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            text-decoration: none;
+            text-shadow: 1px 1px 2px #000000;
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5), inset 2px 2px 5px rgba(255, 255, 255, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .button:hover {
+            background: linear-gradient(145deg, #4682b4, #1e90ff);
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5), inset 2px 2px 5px rgba(255, 255, 255, 0.4);
+            transform: translateY(-3px);
+        }
+        .button:active {
+            background: linear-gradient(145deg, #1e90ff, #4682b4);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), inset 1px 1px 3px rgba(255, 255, 255, 0.5);
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.example1.com" class="button" target="_blank">Situs 1</a>
+        <a href="https://www.example2.com" class="button" target="_blank">Situs 2</a>
+        <a href="https://www.example3.com" class="button" target="_blank">Situs 3</a>
+    </div>
+</body>
+</html>
